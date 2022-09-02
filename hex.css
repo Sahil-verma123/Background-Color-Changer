@@ -10,30 +10,29 @@ body{
     background-color: rgb(49, 49, 49);
     color: aliceblue;
     padding: 1rem;
-}
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    height: 100vh;
 }
 
-div p{
-    padding: 4rem 0;
+
+p{
+    padding: 2rem;
     font-size: 3rem;
     font-weight: bold;
 }
-div button{
+button{
     padding: 1rem;
     cursor: pointer;
     background-color: white;
     color: gray;
+    font-size: 1rem;
     border-radius: 8px;
 }
-div button:hover{
+button:hover{
     background-color: lightgray;
     transition: all 0.5s;
     border-radius: 12px;
     color: black;
+    font-size: 1rem;
+    border: 3px solid black;
 }
 
