@@ -11,3 +11,29 @@ body{
     color: aliceblue;
     padding: 1rem;
 }
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div p{
+    padding: 4rem 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+div button{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: white;
+    color: gray;
+    border-radius: 8px;
+}
+div button:hover{
+    background-color: lightgray;
+    transition: all 0.5s;
+    border-radius: 12px;
+    color: black;
+}
+
